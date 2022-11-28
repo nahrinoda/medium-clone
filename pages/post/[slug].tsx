@@ -48,7 +48,7 @@ export default function CurrentPost({ post }: Props) {
         </div>
         <div className="mt-10">
           <PortableText
-            className=""
+            className="m-0"
             dataset={process.env.NEXT_PUBLIC_SANITY_DATASET!}
             projectId={process.env.NEXT_PUBLIC_SANITY_PROJECT_ID!}
             content={post.body}
